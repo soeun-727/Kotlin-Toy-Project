@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:background="#afd5f0"
+    >
+
+    <!-- 헤더 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="숙대 맛집 모음"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="7dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🍽️"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="7dp"/>
+    </LinearLayout>
+
+    <!-- 카드 아이템 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 한식 카드 -->
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍚"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="한식"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍣"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="일식"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍜"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="중식"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍝"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="양식"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍔"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="햄버거"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍗🍕"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="치킨/피자"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍤"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="분식"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥪"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="간단식"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🥗"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="샐러드"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍰"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="디저트"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🧋"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카페"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/card_bg"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🍹"
+                android:textSize="30sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="술"
+                android:textSize="15sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="390dp"
+        android:layout_height="180dp"
+        android:src="@drawable/pic"
+        android:background="@color/white"
+        android:clickable="true"
+        />
+
+</LinearLayout>

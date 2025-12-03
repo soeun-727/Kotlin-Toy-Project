@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kotlin-Toy-Project</string>
+    <string name="koreanStyled">
+        <font size="30">🍚</font>
+        \n
+        <font size="15">한식</font>
+    </string>
+    <string name="japaneseStyled">
+        <font size="30">🍣</font>
+        \n
+        <font size="15">일식</font>
+    </string>
+    <string name="fastfoodStyled">
+        <font size="30">🍗🍕</font>
+        \n
+        <font size="15">치킨/피자</font>
+    </string>
+</resources>
