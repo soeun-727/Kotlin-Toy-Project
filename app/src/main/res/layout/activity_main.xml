@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="숙대 맛집 모음"
+            android:text="숙대 맛집"
             android:textSize="25sp"
             android:fontFamily="sans-serif-black"
             android:textStyle="bold"
@@ -381,7 +381,7 @@
     <ImageView
         android:layout_width="390dp"
         android:layout_height="180dp"
-        android:src="@drawable/pic"
+        android:src="@drawable/ver2"
         android:background="@color/white"
         android:clickable="true"
         />
