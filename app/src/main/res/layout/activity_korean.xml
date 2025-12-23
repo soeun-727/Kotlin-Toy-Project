@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".Korean"
     android:orientation="vertical"
-    android:gravity="center_horizontal"
     android:paddingTop="20dp"
     android:background="#afd5f0"
     >
@@ -15,7 +14,9 @@
     <!-- 헤더 -->
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,5 +36,11 @@
             android:layout_marginTop="3dp"
             android:layout_marginBottom="7dp"/>
     </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="4dp" />
 
 </LinearLayout>
